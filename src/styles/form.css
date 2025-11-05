@@ -1,0 +1,40 @@
+body {
+  color: var(--dark-gray-blue);
+}
+
+.input {
+  border: 1px solid var(--dark-gray-blue);
+  padding: 5px 10px;
+  outline: none;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.form {
+  padding: 0 50px;
+}
+
+.button {
+  background-color: var(--dark-gray-blue);
+  color: var(--foreground);
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: var(--gray-dark-1);
+}
+
+.btn-container {
+  margin: 10px 0 0;
+}
+
+.p-login {
+  margin: 0;
+}
+
+.span-login:hover {
+  color: var(--gray-dark-1);
+}

@@ -1,0 +1,11 @@
+.clr-foreground {
+  color: var(--foreground);
+}
+
+.pad-20 {
+  padding: 20px 0;
+}
+
+.p-signin-msg {
+  padding: 30px;
+}

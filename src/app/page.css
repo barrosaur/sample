@@ -1,0 +1,23 @@
+.home {
+  background: url('/images/bg-1.svg') no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid-container {
+  background-color: var(--dark-gray-blue);
+  box-shadow: 0 0 5px 1px;
+  display: flex;
+}
+
+.mid-left-container {
+  background-color: var(--foreground);
+}
+
+.mid-right-container {
+  background-color: var(--dark-gray-blue);
+}
