@@ -14,10 +14,10 @@
   display: flex;
 }
 
-.mid-left-container {
+.mid-form-container {
   background-color: var(--foreground);
 }
 
-.mid-right-container {
+.mid-msg-container {
   background-color: var(--dark-gray-blue);
 }

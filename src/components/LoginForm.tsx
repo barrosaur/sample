@@ -2,7 +2,11 @@
 import React, { useState } from 'react'
 import '@/styles/form.css'
 
-const LoginForm = () => {
+interface LoginFormProps {
+  setIsSignUp: (state: number) => void;
+}
+
+const LoginForm = ({ setIsSignUp }: LoginFormProps) => {
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
 
@@ -42,7 +46,16 @@ const LoginForm = () => {
           </button>
         </div>
       </form>
-      <p className='p-login'>Don't have an account? <span className='underline cursor-pointer span-login'>Signup Here</span></p>
+      <p className='p-login'>Don't have an account? 
+        <span 
+          className='underline cursor-pointer span-login'
+          onClick={() => {
+            setIsSignUp(1);
+            console.log('pressed')
+          }}
+          >
+        Signup Here</span>
+      </p>
     </div>
   )
 }

@@ -21,6 +21,7 @@ body {
   color: var(--foreground);
   padding: 5px 15px;
   border-radius: 5px;
+  margin-top: 5px;
 }
 
 .button:hover {
@@ -37,4 +38,8 @@ body {
 
 .span-login:hover {
   color: var(--gray-dark-1);
+}
+
+.p-wrning {
+  margin: 5px 0;
 }
