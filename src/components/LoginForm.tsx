@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import '@/styles/form.css'
 
 interface LoginFormProps {
-  setIsSignUp: (state: number) => void;
+  setIsSignUp: (state: boolean) => void;
 }
 
 const LoginForm = ({ setIsSignUp }: LoginFormProps) => {
@@ -50,8 +50,7 @@ const LoginForm = ({ setIsSignUp }: LoginFormProps) => {
         <span 
           className='underline cursor-pointer span-login'
           onClick={() => {
-            setIsSignUp(1);
-            console.log('pressed')
+            setIsSignUp(true)
           }}
           >
         Signup Here</span>

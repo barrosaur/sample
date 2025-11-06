@@ -1,7 +1,11 @@
 'use client'
 import React, { useState } from 'react'
 
-const SignupForm = () => {
+interface SignupFormProps {
+  setIsSignup: (state: boolean) => void;
+}
+
+const SignupForm = ({ setIsSignUp } : SignupFormProps) => {
   
   const [email, setEmail] = useState<string>("")
   const [username, setUsername] = useState<string>("")
@@ -61,7 +65,11 @@ const SignupForm = () => {
           />
         </div>
         <div className='flex justify-center'>
-          <button type='submit'className='cursor-pointer button' >
+          <button 
+            type='submit' 
+            className='cursor-pointer button'
+            onClick={() => setIsSignUp(false)} 
+          >
             <h3 className='font-bold'>Signup</h3>
           </button>
         </div>
