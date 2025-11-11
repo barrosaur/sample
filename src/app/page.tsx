@@ -3,7 +3,7 @@ import './page.css'
 import { LoginForm, HomeMsg, SignupForm } from '@/components/components'
 import React, { useState } from 'react';
 
-export default function Home() {
+export default function Login() {
   const msgLogin = "Welcome back to Sample! Try to share something today or read\
   something fun or informative. Make learning fun!";
   const msgSignup = "Welcome to Sample! This is a blog post website where you can\

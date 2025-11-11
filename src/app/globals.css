@@ -34,3 +34,24 @@ body {
   width: 100vw;
   overflow: hidden;
 }
+
+.pad-30 {
+  padding: 30px;
+}
+
+.margin-top {
+  margin-top: 40px;
+}
+
+.pad-20 {
+  padding: 20px;
+}
+
+.txt-border {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.pad-btn {
+  padding: 5px 10px;
+}

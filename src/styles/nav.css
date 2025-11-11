@@ -1,0 +1,13 @@
+.nav-btn {
+  /* border: 1px solid white; */
+
+  padding: 20px 0 20px 35px;
+}
+
+.nav-btn:hover {
+  background-color: var(--gray-light-2);
+}
+
+.navbar {
+  box-shadow: 0 0 20px black;
+}
