@@ -7,7 +7,7 @@ export default function Content() {
   
   return (
     <div className='bg-(--dark-gray-blue) w-full h-full text-(--foreground)'>
-      <ContentCard/>
+      
     </div>
   )
 }
